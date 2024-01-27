@@ -1,4 +1,4 @@
-import Tag from "./Selo"
+import Tag from "./Tag"
 
 function Card () {
     return (
