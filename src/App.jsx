@@ -1,5 +1,6 @@
 import './App.css'
-import Card from './components/Card'
+import Card from './components/Card/Card'
+
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
     <Card/>
     <Card/>
     </>
+    
   )
 }
 

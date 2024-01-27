@@ -1,10 +1,11 @@
 .card {
   border: 1px solid black;
   border-radius: 10px;
-  padding: 16px ;
+  background-color: gray;
+  padding: 50px ;
   box-shadow: 4px 4px black;
   text-align: center;
-
+  cursor: pointer; /*Adicionei para realizar o desafio*/
 }
 
 .card h2 {  
@@ -13,4 +14,18 @@
 
 .card img { 
   border-radius: 10px;
+}
+
+.status {
+  font-size: 10px;
+  color: blueviolet;
+  background-color: #121212;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 3px ;
+  box-shadow: 4px 4px peru;
+  text-align: justify;
+  align-self: auto;
+
+
 }
