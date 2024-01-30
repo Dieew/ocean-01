@@ -1,8 +1,20 @@
+#root {
+  width: 100%;
+
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  padding: 16px;
+}
+
 .card {
   border: 1px solid black;
   border-radius: 10px;
   background-color: gray;
-  padding: 50px ;
+  padding: 30px ;
   box-shadow: 4px 4px black;
   text-align: center;
   cursor: pointer; /*Adicionei para realizar o desafio*/
@@ -24,7 +36,7 @@
   font-size: 12px;
   font-weight: bold;
   border-radius: 8px;
-  padding: 4px 12px;
+  padding: 4px 8px;
 
 }
 .tags { 
