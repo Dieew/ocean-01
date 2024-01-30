@@ -1,7 +1,8 @@
 import Tag from "./Tag"
 
-function Card () {
-    return (
+function Card (props) {
+   console.log (props) 
+  return (
         <>
           <div className='card'>
             <h2>Rick Sanchez</h2>

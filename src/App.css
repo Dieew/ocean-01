@@ -30,7 +30,7 @@
 .tags { 
   display: flex;
   flex-wrap: wrap;
-  gap: 3px;
+  gap: 3px 5px;
   margin-bottom: 24px;
   max-width: 300px;
   justify-content: center;
