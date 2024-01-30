@@ -5,7 +5,7 @@ function Card () {
         <>
           <div className='card'>
             <h2>Rick Sanchez</h2>
-            <Tag/>
+            <div><Tag/></div>
             <img src = "https://rickandmortyapi.com/api/character/avatar/1.jpeg" />
           </div>
         </>
