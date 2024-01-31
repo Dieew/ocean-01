@@ -12,7 +12,10 @@ function Card (props) {
           <div className='card'>
             <h2>{item.name}</h2>
             <div><Tag/></div>
+
+            <div>
             <img src = {item.image} />
+            </div>
           </div>
         </>
       )
